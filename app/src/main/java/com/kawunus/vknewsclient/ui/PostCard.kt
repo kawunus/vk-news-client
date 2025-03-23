@@ -45,6 +45,10 @@ fun PostCard() {
                     .height(8.dp)
             )
             PostCardBody()
+            Spacer(
+                modifier = Modifier
+                    .height(8.dp)
+            )
             Statistics()
         }
     }
