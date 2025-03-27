@@ -1,4 +1,4 @@
-package com.kawunus.vknewsclient.ui
+package com.kawunus.vknewsclient.presentation
 
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.outlined.Favorite

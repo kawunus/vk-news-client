@@ -1,4 +1,4 @@
-package com.kawunus.vknewsclient.ui.theme
+package com.kawunus.vknewsclient.presentation.theme
 
 import android.os.Build
 import androidx.compose.foundation.isSystemInDarkTheme

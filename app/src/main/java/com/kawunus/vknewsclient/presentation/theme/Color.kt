@@ -1,4 +1,4 @@
-package com.kawunus.vknewsclient.ui.theme
+package com.kawunus.vknewsclient.presentation.theme
 
 import androidx.compose.ui.graphics.Color
 

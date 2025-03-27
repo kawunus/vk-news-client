@@ -1,4 +1,4 @@
-package com.kawunus.vknewsclient.ui
+package com.kawunus.vknewsclient.presentation
 
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.clickable
