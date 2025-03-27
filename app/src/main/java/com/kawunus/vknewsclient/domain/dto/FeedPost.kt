@@ -4,6 +4,7 @@ import androidx.compose.ui.tooling.preview.datasource.LoremIpsum
 import com.kawunus.vknewsclient.R
 
 data class FeedPost(
+    val id: Int = 0,
     val communityName: String = "/dev/null",
     val publicationTime: String = "14:00",
     val avatarResId: Int = R.drawable.placeholder_avatar,
