@@ -12,7 +12,6 @@ import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.livedata.observeAsState
 import androidx.compose.runtime.mutableIntStateOf
-import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
@@ -44,9 +43,10 @@ fun MainScreen(viewModel: MainViewModel) {
             modifier = Modifier
                 .padding(8.dp),
             feedPost = feedPost.value,
-            onStatisticsItemClickListener = {
-                viewModel.updateCount(it)
-            }
+            onLikesClickListener = viewModel::updateCount,
+            onSharesClickListener = viewModel::updateCount,
+            onViewsClickListener = viewModel::updateCount,
+            onCommentsClickListener = viewModel::updateCount,
         )
     }
 }
